@@ -37,4 +37,7 @@
 #### Demo Screenshots
 ![](img/2019-09-14_14-15-CodeDeploySuccess.png)
 ![](img/2019-09-14_14-17-EC2-instance-w-travis-deployment.png)
+![](img/2019-09-14_15-38-pytest-CodeDeployDemoSuccess.png)
 
+## Things to consider instead of flask development server
+- https://medium.com/@thucnc/deploy-a-python-flask-restful-api-app-with-gunicorn-supervisor-and-nginx-62b20d62691f
