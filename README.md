@@ -19,3 +19,8 @@
 
 - replace ServerRegionHERE and AccIDHere
 - pick a NameOfTheCodeDeployApplicationNameHERE and write it down
+
+#### codedeploy needs to be running on your instance
+
+- https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-linux.html
+- https://aws-codedeploy-us-west-2.s3.us-west-2.amazonaws.com/latest/install
