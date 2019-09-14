@@ -5,3 +5,9 @@ os: linux
 files:
   - source: ./
     destination: /home/ec2-user/travis-ci-aws-flask-demo-folder
+
+hooks:
+   ApplicationStart:
+     - location: run.sh
+       timeout: 20
+       runas: ec2-user

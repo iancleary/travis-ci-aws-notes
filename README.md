@@ -25,6 +25,11 @@
 - https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-linux.html
 - https://aws-codedeploy-us-west-2.s3.us-west-2.amazonaws.com/latest/install
 
+#### AWS CodeDeploy hooks
+- https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-structure-hooks.html
+
+#### Flask run commands
+- https://flask.palletsprojects.com/en/1.1.x/tutorial/factory/
 
 #### Demo Screenshots
 ![](img/2019-09-14_14-15-CodeDeploySuccess.png)
