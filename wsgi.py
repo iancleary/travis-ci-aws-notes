@@ -7,7 +7,7 @@ app = Flask(__name__)
 def hello():
     return 'Hello, World!'
 
-@app.route('/arizona')
+@app.route('/california')
 def arizona():
-    return 'Hello, Arizona!'
+    return 'Hello, California!'
 
