@@ -8,6 +8,6 @@ files:
 
 hooks:
    ApplicationStart:
-     - location: /home/ec2-user/travis-ci-aws-flask-demo-folder/run.sh
+     - location: run.sh
        timeout: 20
        runas: ec2-user
