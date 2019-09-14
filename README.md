@@ -25,6 +25,9 @@
 - https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-linux.html
 - https://aws-codedeploy-us-west-2.s3.us-west-2.amazonaws.com/latest/install
 
+##### Make sure you change into the right directory if you move files in [appspec.yml](appspec.yml)
+- https://stackoverflow.com/questions/51538019/aws-codedeploy-issue-cannot-run-hooks-in-appspec-file
+
 #### AWS CodeDeploy hooks
 - https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-structure-hooks.html
 
