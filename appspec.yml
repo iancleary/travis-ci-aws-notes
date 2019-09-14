@@ -1,0 +1,3 @@
+version: 0.0os: linuxfiles:
+  - source: ./
+    destination: /home/ubuntu/travis-ci-aws-flask-demo-folder
