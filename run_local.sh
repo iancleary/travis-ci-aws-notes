@@ -1,4 +1,5 @@
 #!/bin/sh
-export FLASK_APP=hello.py
-export FLASK_ENV=development
-flask run
+# export FLASK_APP=wsgi.py
+# export FLASK_ENV=production
+# flask run &
+gunicorn -b localhost:8880 -w 4 wsgi:app

@@ -1,5 +1,5 @@
 # test_hello.py
-from hello import app
+from wsgi import app
 
 def test_hello():
     response = app.test_client().get('/')
