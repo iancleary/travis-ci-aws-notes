@@ -1,14 +1,17 @@
 #!/bin/sh
 
-# Change from /opt/... to directory specified in appspec.yml
-cd /home/ec2-user/travis-ci-aws-flask-demo-folder
+# Change to home (application dir becomes read only)
+cd /home/ec2-user/
 
 # install python
 sudo yum install python36 python36-pip -y # could be in ansible
 
 #Download get-pip to current directory. It won't install anything, as of now
 curl -O https://bootstrap.pypa.io/get-pip.py
-python3 get-pip.py
+sudo python3 get-pip.py
+
+# change into application directory specified in appspec.yml
+cd /home/ec2-user/travis-ci-aws-flask-demo-fold
 
 # install requirements.txt
 pip3.6 install -r requirements.txt # could be in venv or just a don't care
