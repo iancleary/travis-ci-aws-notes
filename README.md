@@ -24,3 +24,9 @@
 
 - https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-install-linux.html
 - https://aws-codedeploy-us-west-2.s3.us-west-2.amazonaws.com/latest/install
+
+
+#### Demo Screenshots
+![](img/2019-09-14_14-15-CodeDeploySuccess.png)
+![](img/2019-09-14_14-17-EC2-instance-w-travis-deployment.png)
+
