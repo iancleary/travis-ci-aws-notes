@@ -8,6 +8,6 @@ files:
 
 hooks:
    ApplicationStart:
-     - location: run.sh
+     - location: start.sh
        timeout: 20
        runas: ec2-user

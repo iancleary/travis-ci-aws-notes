@@ -13,8 +13,8 @@ sudo python3 get-pip.py
 # change into application directory specified in appspec.yml
 cd /home/ec2-user/travis-ci-aws-flask-demo-fold
 
-# install requirements.txt
-pip3.6 install -r requirements.txt # could be in venv or just a don't care
+# install requirements.txt (has to be --user)
+pip3.6 install -r requirements.txt --user # could be in venv or just a don't care
 
 # run Flask app
 export FLASK_APP=hello.py
