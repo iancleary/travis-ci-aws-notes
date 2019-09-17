@@ -7,3 +7,7 @@ app = Flask(__name__)
 def hello():
     return 'Hello, World!'
 
+@app.route('/california')
+def arizona():
+    return 'Hello, California!'
+
